@@ -4,9 +4,13 @@ xrdcp root://cms-xrd-global.cern.ch///store/data/Run2016D/SingleMuon/MINIAOD/17J
 
 (This MINIAOD file is from: https://cmsweb.cern.ch/das/request?input=file%3D%2Fstore%2Fdata%2FRun2016D%2FSingleMuon%2FMINIAOD%2F17Jul2018-v1%2F00000%2F2E6ADD2B-C68A-E811-AB71-0CC47AFC3C64.root&instance=prod/global)
 
-2. Go './CMSSW_10_4_0_patch1/src/Demo/DemoAnalyzer' to start analysis
+2. Download 'Demo' file into your CMSSW/src directory
 
-3. MINIAOD twiki
+3. Go './CMSSW_10_4_0_patch1/src/Demo/DemoAnalyzer' to start analysis
+
+4. Refer run_NIso.sh file to run the code
+
+5. (optional) MINIAOD twiki
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMiniAOD2017 (MINIAOD structure)
 https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookWriteFrameworkModule (How to start EDAnalyzer)
 
