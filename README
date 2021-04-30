@@ -1,0 +1,12 @@
+1. Original root file (MINIAOD) is downloaded at KNU with below command line:
+voms-proxy-init --voms cms --valid 168:00
+xrdcp root://cms-xrd-global.cern.ch///store/data/Run2016D/SingleMuon/MINIAOD/17Jul2018-v1/00000/2E6ADD2B-C68A-E811-AB71-0CC47AFC3C64.root ./
+
+(This MINIAOD file is from: https://cmsweb.cern.ch/das/request?input=file%3D%2Fstore%2Fdata%2FRun2016D%2FSingleMuon%2FMINIAOD%2F17Jul2018-v1%2F00000%2F2E6ADD2B-C68A-E811-AB71-0CC47AFC3C64.root&instance=prod/global)
+
+2. Go './CMSSW_10_4_0_patch1/src/Demo/DemoAnalyzer' to start analysis
+
+3. MINIAOD twiki
+https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookMiniAOD2017 (MINIAOD structure)
+https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookWriteFrameworkModule (How to start EDAnalyzer)
+
