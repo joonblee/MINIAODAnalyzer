@@ -4,6 +4,11 @@ _init__.py
 .#*
 #*#
 *~
+Demo/DemoAnalyzer/Inputs
+Demo/DemoAnalyzer/Outputs
+Demo/DemoAnalyzer/tmp
+Demo/DemoAnalyzer/PlotMaker/plots
+Demo/DemoAnalyzer/*.root
 Alignment/*
 AnalysisAlgos/*
 AnalysisDataFormats/*
